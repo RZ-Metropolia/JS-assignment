@@ -39,6 +39,7 @@ for (let i = 1; i <= votersNumber; i++) {
 
 // Count the votes
 let candidatesVotes = [];
+
 for (let index in candidates) {
     candidatesVotes.push(candidates[index].votes);
 }
@@ -54,6 +55,7 @@ for (let i = 0; i < candidates.length; i++) {
 }
 
 console.log("Results:\n");
+
 for (let i = 0; i < candidates.length; i++) {
     console.log(`${candidates[i].name}: ${candidates[i].votes} votes`);
 }
